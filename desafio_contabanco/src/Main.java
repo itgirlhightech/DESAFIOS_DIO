@@ -6,7 +6,7 @@ public class Main {
         Conta cc = new ContaCorrente(evilyn);
         Conta poupanca = new ContaPoupanca(evilyn);
 
-        cc.depositar(100);
+        cc.depositar(180);
         cc.transferir(100, poupanca );
 
         cc.imprimirExtrato();
